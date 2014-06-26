@@ -1,0 +1,93 @@
+body {
+  background-image: url(http://www.dentons.com/~/media/Images/Background%20Images/Offices/New%20York/new_york_opt_02.jpg);
+  background-size: cover;
+}
+
+.thumb {
+  max-width: 20em;
+}
+
+.medium {
+  max-width: 30em;
+}
+
+#container {
+  max-width: 960px;
+  margin: auto;
+  background-image: url(http://s3.amazonaws.com/spoonflower/public/design_thumbnails/0166/7766/rrFabric_Starry_Night_Van_Gogh_-_Sky_Only_mirror.png);
+  background-size: cover;
+  border: solid #FDFE00 5px;
+  border-radius: .5em;
+  padding-bottom: 2em;
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul {
+  list-style: none;
+  padding: 1em;
+  margin: 0;
+  background-color: #82dcff;
+  border-bottom: solid #FDFE00 5px;
+  border-left:solid #FDFE00 5px;
+  border-right: solid #FDFE00 5px;
+  border-radius: 0 0 3em 3em;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding-left: .5em;
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: #EA5346;
+}
+
+label {
+  min-width: 80px;
+}
+
+h2 {
+  background-color: #EA5346;
+  text-align: center;
+  max-width: 350px;
+  margin: auto;
+  margin-top: 1em;
+  border-radius: 1em 1em 0 0;
+  border-top: solid #FDFE00 5px;
+  border-left: solid #FDFE00 5px;
+  border-right: solid #FDFE00 5px;
+}
+
+#works_contain {
+  background-color: rgb(125, 148, 181);
+  max-width: 450px;
+  margin: auto;
+  margin-bottom: 2em;
+  padding: 1em;
+  padding-left: 4em;
+  border-radius: 1em 1em 1em 1em;
+  border: solid #FDFE00 5px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  background-color: black;
+  max-width: 120px;
+  margin: auto;
+  margin-top: 1em;
+  padding: .5em;
+  border-radius: 3em;
+  border: solid #FDFE00 2px ;
+}
+

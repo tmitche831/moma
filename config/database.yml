@@ -1,0 +1,24 @@
+development:
+  adapter: postgresql
+  database: moma_development
+  pool: 5
+  host: localhost
+  username: thomas
+  password: felix831
+
+test:
+  adapter: postgresql
+  database: moma_test
+  pool: 5
+  host: localhost
+  username: thomas
+  password: felix831
+
+
+production:
+  adapter: postgresql
+  database: moma_production
+  pool: 5
+  host: localhost
+  username: thomas
+  password: felix831

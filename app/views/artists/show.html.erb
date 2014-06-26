@@ -1,0 +1,9 @@
+<h2><%= @artist.name %></h2>
+<div id="works_contain">
+  <ul>
+    <li><%= image_tag(@artist.image, :class => 'thumb') %></li>
+    <li><%= @artist.nationality %></li>
+    <li><%= @artist.period %></li>
+    <li><%= @artist.dob.strftime('%B %d %Y') %></li>
+  </ul>
+</div>

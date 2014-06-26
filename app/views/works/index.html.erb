@@ -1,0 +1,16 @@
+<h2>Works</h2>
+<% @works.each do |work| %>
+<div id="works_contain">
+  <ul>
+    <li><%= image_tag(work.image, :class => 'thumb') %></li>
+    <li>Title: <%= link_to(work.title, work) %></li>
+    <li>Artist: <%= link_to(work.artist.name, work.artist) if work.artist %></li>
+    <li>Year Created: <%= work.year %></li>
+    <li>Medium: <%= work.medium %></li>
+    <li>Style: <%= work.style %></li>
+    <li><%= link_to('Edit', edit_work_path(work)) %></li>
+    <li><%= link_to('Delete', work, :method => :delete, :data => { :confirm => 'DONT DO IT!!'}) %></li>
+  </ul>
+</div>
+<% end %>
+

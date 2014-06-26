@@ -1,0 +1,15 @@
+<h2>Artists</h2>
+<% @artists.each do |artist| %>
+  <div id="works_contain">
+    <ul>
+      <li><%= image_tag(artist.image, :class => 'thumb') %></li>
+      <li>Name: <%= link_to(artist.name, artist) %></li>
+      <li>Nationality: <%= artist.nationality %></li>
+      <li>Period: <%= artist.period %></li>
+      <li>Date of Birth: <%= artist.dob.strftime('%B %d %Y') %></li>
+      <li><%= link_to('Edit', edit_artist_path(artist)) %></li>
+      <li><%= link_to('Delete', artist, :method => :delete, :data => { :confirm => 'DONT DO IT!!'}) %></li>
+    </ul>
+  </div>
+<% end %>
+
